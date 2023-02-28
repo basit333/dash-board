@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 9-2</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header id="header">
+        <div class="sidenav">
+          <ul>
+            <li>
+              <a href="#"><img src="images/overview.svg" alt="overview" />Overview</a>
+            </li>
+            <li>
+              <a href="#"><img src="images/store.svg" alt="store" />Store</a>
+            </li>
+            <li>
+              <a href="#"><img src="images/pos.svg" alt="pos" />POS</a>
+            </li>
+            <li>
+              <a href="#"><img src="images/order.svg" alt="order" />Order</a>
+            </li>
+            <li>
+              <a href="#"><img src="images/marketing.svg" alt="marketing" />Marketing</a>
+            </li>
+            <li>
+              <a href="#"><img src="images/account.svg" alt="account" />Account</a>
+            </li>
+          </ul>
+        </div>
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo" />
+          <h3>Order</h3>
+        </div>
+        <div class="icons">
+          <div class="bell"><img src="images/bell.svg" alt="bell" /><span>5</span></div>
+          <div class="chat"><img src="images/chat.svg" alt="chat" /><span>12</span></div>
+        </div>
+      </header>
+      <main>
+        <div class="main-wrap">
+          <div class="tabs">
+            <div class="tab">
+              <button class="tablinks" onclick="openCity(event, 'all')" id="defaultOpen">All<span>50</span></button>
+              <button class="tablinks" onclick="openCity(event, 'new')">New<span>05</span></button>
+              <button class="tablinks" onclick="openCity(event, 'shipping')">Shipping<span>03</span></button>
+              <button class="tablinks" onclick="openCity(event, 'complete')">Complete<span>05</span></button>
+              <button class="tablinks" onclick="openCity(event, 'cancel')">Cancel<span>00</span></button>
+            </div>
+            <div id="all" class="tabcontent">
+              <div class="customers">
+                <div class="customer">
+                  <div class="cn">
+                    <img src="images/cn1.svg" alt="cn1" />
+                    <p>Customer Name 1<img src="images/cnchat.svg" alt="cnchat" /></p>
+                  </div>
+                  <div class="cnp">
+                    <img src="images/cn1p1.svg" alt="cn1p1" />
+                    <p>CND Shellac Gel Polish, Uv Top Coat 0.42 oz</p>
+                    <p>2 Bottles</p>
+                  </div>
+                  <div class="cnp">
+                    <img src="images/cn1p2.svg" alt="cn1p2" />
+                    <p>SNS Glass Bottle, GelBase (Green Cap), 0.5oz</p>
+                    <p>1 Boxs</p>
+                  </div>
+                </div>
+                <div class="customer">
+                  <div class="cn">
+                    <img src="images/cn2.svg" alt="cn2" />
+                    <p>Customer Name 2<img src="images/cnchat.svg" alt="cnchat" /></p>
+                  </div>
+                  <div class="cnp">
+                    <img src="images/cn2p1.svg" alt="cn2p1" />
+                    <p>CND Shellac Gel Polish, Uv Top Coat 0.42 oz</p>
+                    <p>1 Bottles</p>
+                  </div>
+                </div>
+                <div class="customer">
+                  <div class="cn">
+                    <img src="images/cn3.svg" alt="cn3" />
+                    <p>Customer Name 3<img src="images/cnchat.svg" alt="cnchat" /></p>
+                  </div>
+                  <div class="cnp">
+                    <img src="images/cn1p1.svg" alt="cn1p1" />
+                    <p>CND Shellac Gel Polish, Uv Top Coat 0.42 oz</p>
+                    <p>2 Bottles</p>
+                  </div>
+                  <div class="cnp">
+                    <img src="images/cn1p2.svg" alt="cn1p2" />
+                    <p>SNS Glass Bottle, GelBase (Green Cap), 0.5oz</p>
+                    <p>1 Boxs</p>
+                  </div>
+                  <div class="cnp">
+                    <img src="images/cn1p2.svg" alt="cn1p2" />
+                    <p>SNS Glass Bottle, GelBase (Green Cap), 0.5oz</p>
+                    <p>1 Boxs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="new" class="tabcontent">
+              <h3>New</h3>
+            </div>
+
+            <div id="shipping" class="tabcontent">
+              <h3>Shipping</h3>
+            </div>
+
+            <div id="complete" class="tabcontent">
+              <h3>Complete</h3>
+            </div>
+
+            <div id="cancel" class="tabcontent">
+              <h3>Cancel</h3>
+            </div>
+          </div>
+          <div class="notification">
+            <div class="content">
+              <h6>Notification</h6>
+              <div class="content-wrap">
+                <div class="img-box">
+                  <img src="images/jun.svg" alt="jun" />
+                  <div class="text-wrap">
+                    <p>Jun Pham</p>
+                    <span>New Order</span>
+                  </div>
+                </div>
+                <p>2 product</p>
+                <div class="text-wrap1">
+                  <p>$ 500.50</p>
+                  <span>08:28AM</span>
+                </div>
+              </div>
+            </div>
+            <div class="content-wrap wrapm">
+              <div class="img-box">
+                <img src="images/doh.svg" alt="doh" />
+                <div class="text-wrap">
+                  <p>Doherty Huynh</p>
+                  <span>New Order</span>
+                </div>
+              </div>
+              <p>1 product</p>
+              <div class="text-wrap1">
+                <p>$ 30.50</p>
+                <span>Nov 30</span>
+              </div>
+            </div>
+            <div class="content-wrap wrapm">
+              <div class="img-box">
+                <img src="images/robert.svg" alt="robert" />
+                <div class="text-wrap">
+                  <p>Robert Nguyen</p>
+                  <span class="blue">New Feedback</span>
+                </div>
+              </div>
+              <p>4 product</p>
+              <div class="text-wrap1">
+                <p>$ 125.50</p>
+                <span>Nov 28</span>
+              </div>
+            </div>
+            <div class="content-wrap emptyw"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script>
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+  </body>
+</html>
